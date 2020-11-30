@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Contacts</string>
+
+    <string name="main_refresh">Refresh</string>
+
+    <string name="details_phones">List</string>
+</resources>
