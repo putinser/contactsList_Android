@@ -46,6 +46,8 @@ class ContactsAdapter(private val context: Context, private val onClickContact: 
             contactData.photoUri.showInImageView(itemView.contactImageView)
             if (contactData.phoneList.isNotEmpty()) {
                 itemView.contactMainNumberTextView.text = contactData.phoneList.first().mainData
+            } else {
+                itemView.contactMainNumberTextView.text = ""
             }
         }
     }
